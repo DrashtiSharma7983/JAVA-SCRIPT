@@ -9,7 +9,18 @@
 
 // Qs2.WriteaJavaScriptprogramtogetthelastnelementsofanarray.[ncanbeanypositivenumber].
 // Forexample:forarray[7,9,0,-2]andn=3Print,[9,0,-2]
-let arr = [7,9,0,-2];
-let n= 3;
-ans = arr.slice(arr.length-n);
-console.log(ans);
+// let arr = [7,9,0,-2];
+// let n= 3;
+// ans = arr.slice(arr.length-n);
+// console.log(ans);
+
+
+//Qs3.WriteaJavaScriptprogramtocheckwhetherastringisblankornot
+
+let str = "Drashti";
+if(str.length === 0){
+    console.log("String is empty");
+}
+else{
+    console.log("String is not empty");
+}
