@@ -17,10 +17,21 @@
 
 //Qs3.WriteaJavaScriptprogramtocheckwhetherastringisblankornot
 
-let str = "Drashti";
-if(str.length === 0){
-    console.log("String is empty");
+// let str = "Drashti";
+// if(str.length === 0){
+//     console.log("String is empty");
+// }
+// else{
+//     console.log("String is not empty");
+// }
+
+//Qs4.WriteaJavaScriptprogramtotestwhetherthecharacteratthegiven(character)indexislowercase.
+
+let str = "DrAsHtiShArma";
+let indx = 5;
+if(str[indx]==str[indx].toLowerCase()){
+    console.log("Character is in lower case");
 }
 else{
-    console.log("String is not empty");
+    console.log("Character is not in lower case");
 }
