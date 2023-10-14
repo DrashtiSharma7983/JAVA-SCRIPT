@@ -134,3 +134,17 @@ let num=2;
     }
  }
  console.log("result is : ",arr);
+
+
+ // Qs2.Write aJS program to find the no of digits in a number
+// Example:ifnumber=287152,count=6
+
+let number = 287152756524352;
+let count = 0;
+let copy = number;
+
+while(copy>0){
+    count++;
+    copy = Math.floor(copy/10);
+}
+console.log(count);
