@@ -1,7 +1,20 @@
-//generate a random number btw 1 and 100
-let num = Math.floor(Math.random()*100)+1;
-console.log(num);
+//generate a game using random number.
+const num = prompt("enter your number");
 
-//generate a random number btw 1 and 5
-let num = Math.floor(Math.random()*5)+1;
-console.log(num);
+const random = Math.floor(Math.random()*num) +1;
+
+let guess = prompt("guess random number");
+
+while(true){
+    if(guess == "quit"){
+        console.log("you quit");
+        break;
+    }
+    if(guess == random){
+        console.log("you are right! Congrats!! number is",random);
+        break;
+    }
+    else{
+        guess = prompt("sorry! please try again");
+    }
+}
