@@ -157,3 +157,37 @@ console.log(num);
 //generate a random number btw 1 and 5
 let num = Math.floor(Math.random()*5)+1;
 console.log(num);
+
+//generate a game using random number.
+const num = prompt("enter your number");
+
+const random = Math.floor(Math.random()*num) +1;
+
+let guess = prompt("guess random number");
+
+while(true){
+    if(guess == "quit"){
+        console.log("you quit");
+        break;
+    }
+    if(guess == random){
+        console.log("you are right! Congrats!! number is",random);
+        break;
+    }else if(guess < random){
+        guess = prompt("hint: your number is small. please try again");
+    }
+    else{
+        guess = prompt("hint: your number is large. please try again");
+    }
+}
+
+//create anobject
+const person={
+    name:"Drashti",
+    age:24,
+    city:"Gurgaon"
+}
+person.city="Delhi";
+
+person.country="India";
+console.log(person);
