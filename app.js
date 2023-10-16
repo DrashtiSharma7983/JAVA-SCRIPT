@@ -1,6 +1,9 @@
-function avgCalc(a,b,c){
-    let average = (a+b+c)/3;
-    console.log(average);
+function getSum(n){
+    let rslt=0;
+    for(let i=1;i<=n;i++){
+        rslt +=rslt;
+    }
+    return rslt;
 }
-
-avgCalc(10,10,10);
+let finl = getSum(3);
+console.log(finl);
