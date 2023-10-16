@@ -1,6 +1,6 @@
-
-function diceRoll(){
-    let rslt = Math.floor(Math.random()*6)+1;
-    console.log(rslt);
+function avgCalc(a,b,c){
+    let average = (a+b+c)/3;
+    console.log(average);
 }
-diceRoll();
+
+avgCalc(10,10,10);
