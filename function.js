@@ -47,3 +47,18 @@ let greet = function(){
 }
 
 multipleGreet(greet,10);
+
+//Qs1.Write a JavaScript function that returns array elements larger than a number.
+
+let elements = [50,30,25,70];
+let num = 25;
+
+function largeNum(arr,n){
+    for(let i=0;i<=arr.length;i++){
+        if(arr[i]>n){
+            console.log(arr[i]);
+        }
+    }
+}
+
+largeNum(elements,25);
