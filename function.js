@@ -34,3 +34,16 @@ function add(a,b){
 }
 let sum = add(10,5);
 console.log(sum);
+
+//higher order function 
+function multipleGreet(fun,n){
+    for(let i=1;i<=n;i++){
+        fun();
+    }
+}
+
+let greet = function(){
+    console.log("hello!");
+}
+
+multipleGreet(greet,10);
