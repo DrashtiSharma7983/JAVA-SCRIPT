@@ -62,3 +62,14 @@ function largeNum(arr,n){
 }
 
 largeNum(elements,25);
+
+//Qs5.Write a JavaScript function to generate a random number within a range(start,end)
+
+function randNum(start,end){
+    for(let i=start;i<=end;i++){
+        let ans = Math.floor(Math.random()*end)+1;
+        console.log(ans);
+    }
+}
+
+randNum(80,100);
