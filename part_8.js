@@ -22,3 +22,11 @@ function printEach(n){
 }
 
 nums.forEach(printEach);
+
+//filter method
+
+let num =[2,4,3,1,7,5,6,9,3,4];
+
+let even = num.filter((el) =>(el%2==0));
+
+let odd = num.filter((el) =>(el%2!=0));
