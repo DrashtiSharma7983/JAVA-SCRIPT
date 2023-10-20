@@ -5,10 +5,20 @@ let arr =[2,4,3,1,7,5,6,9,3,4];
 function num(n){
     console.log(n);
 }
-arr.map(num);
+let myArr = arr.map(num);
 
 //OR
 
-arr.map(function(el){
-    console.log(el);
+let newArr = arr.map(function(el){
+    return el;
 });
+
+//forEach method
+
+let nums = [4,5,2,4,7,8];
+
+function printEach(n){
+    console.log(n);
+}
+
+nums.forEach(printEach);
