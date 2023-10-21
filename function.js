@@ -35,6 +35,16 @@ function add(a,b){
 let sum = add(10,5);
 console.log(sum);
 
+
+//print the sum from 1 to n
+function sum(n){
+    sum = 0;
+    for(let i=0;i<=n;i++){
+        sum +=i;
+    }
+    return sum;
+}
+console.log(sum(15));
 //higher order function 
 function multipleGreet(fun,n){
     for(let i=1;i<=n;i++){
