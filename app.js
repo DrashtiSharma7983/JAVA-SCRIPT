@@ -1,41 +1,8 @@
-let firstname = prompt("Enter your firstname");
-//Trafic light system
-let color = "yellow";
-if(color == "red"){
-    console.log("Please stop");
-}
-if(color == "yellow"){
-    console.log("Please slow down");
-}
-if(color == "green"){
-    console.log("Please go");
-}
+let btn = document.createElement('button');
 
-//week days program
+let btn1 = document.querySelector("button");
+console.dir(btn1);
+btn1.innerText = "click me!";
 
-let day = "8";
-switch(day){
-    case "1":
-        console.log("Monday");
-            break;
-    case "2":
-        console.log("Tuesday");
-        break;  
-    case "3":
-        console.log("Wednesday");
-        break; 
-    case "4":
-        console.log("Thursday");
-        break;
-    case "5":
-        console.log("Friday");
-        break;
-    case "6":
-        console.log("Saturday");
-        break;
-    case "7":
-        console.log("Sunday");
-        break;
-    default:
-        console.log("Wrong day");
-}
+let body = document.querySelector("body");
+body.appendChild(btn1);
