@@ -1,5 +1,6 @@
-let imgs = document.getElementsByClassName("oldImg");
+let para = document.createElement('p');
+para.innerText = "Hey I am red!";
 
-for(let i=0;i<imgs.length;i++){
-    console.dir(imgs[i].src);
-}
+let body = document.querySelector('body');
+body.append(para);
+para.classList.add('red');
