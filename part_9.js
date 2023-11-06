@@ -65,6 +65,7 @@ body.append(btn);
 //Assignment Q2
 let bttn = document.querySelector("button");
 bttn.setAttribute('id','btn');
+bttn.setAttribute('placeholder','username');
 
 //Assignment Q3
 
@@ -75,6 +76,25 @@ btn.innerText = "click me!"
 let body = document.querySelector('body');
 
 body.append(btn);
+
+//Assignment Q4
+let h1 = document.createElement('h1');
+h1.innerText = "DOM Practice";
+h1.style.color = "purple";
+h1.classList.add("underline");
+
+let body = document.querySelector('body');
+
+body.append(h1);   
+
+//Assignment Q5
+
+let p = document.createElement('p');
+p.innerHTML = "Apna College <b>Delta</b> Practice";
+
+let body = document.querySelector('body');
+body.append(p);
+
 
 
 
