@@ -66,6 +66,17 @@ body.append(btn);
 let bttn = document.querySelector("button");
 bttn.setAttribute('id','btn');
 
+//Assignment Q3
+
+let btn = document.createElement("button");
+btn.style.backgroundColor = "pink";
+btn.style.color = "white";
+btn.innerText = "click me!"
+let body = document.querySelector('body');
+
+body.append(btn);
+
+
 
 
 
