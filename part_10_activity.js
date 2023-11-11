@@ -16,3 +16,21 @@ function getRandomColor(){
     let color =`rgb(${red}, ${green}, ${blue})`;
     return color;
 }
+
+//html or css code
+//  <h1>Generate a random color</h1>
+//     <button>Generate Color</button>
+//     <br><br>
+//     <div>This is your new color.</div>
+
+ 
+//----css-----
+//  *{
+//     text-align: center;
+// }
+// div{
+//     height: 200px;
+//     width: 800px;
+//     border: 1px black solid;
+//     margin: auto;
+// }
