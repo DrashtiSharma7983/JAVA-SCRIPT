@@ -1,14 +1,15 @@
-let btns = document.querySelectorAll('button');
+let btn  = document.querySelector("button");
 
-for(btn of btns){
-    btn.onclick = sayHello;
-}
-// console.dir(btn);
+// btn.addEventListener("click",sayHello);
+// btn.addEventListener("click",sayName);
+btn.addEventListener("dblclick",function (){
+    console.log("you double clicked");
+});
 
-// btn.onclick = function () {
-//     console.log("button was clicked.");
-//     alert("button was clicked.");
+// function sayHello() {
+//     alert("Hello");
 // }
-function sayHello(){
-    alert("button was clicked.");
-}
+
+// function sayName() {
+//     alert("Apnacollege");
+// }
