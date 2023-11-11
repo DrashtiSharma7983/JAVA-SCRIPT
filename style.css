@@ -1,7 +1,9 @@
-.box{
-    background-color: pink;
-    border: 1px solid black;
+*{
+    text-align: center;
 }
-.underline{
-    text-decoration: 1px underline black;
+div{
+    height: 200px;
+    width: 800px;
+    border: 1px black solid;
+    margin: auto;
 }
