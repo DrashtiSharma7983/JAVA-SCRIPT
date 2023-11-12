@@ -34,3 +34,32 @@ function getRandomColor(){
 //     border: 1px black solid;
 //     margin: auto;
 // }
+
+// another small activity
+// let h1 = document.querySelector('h1');
+// let h3 = document.querySelector('h3');
+// let p = document.querySelector('p');
+// let btn = document.querySelector('button');
+
+// function changeColor(){
+//     console.dir(this.innerText);
+//     this.style.backgroundColor = "purple";
+// }
+
+// h1.addEventListener("click",changeColor);
+// h3.addEventListener("click",changeColor);
+// p.addEventListener("click",changeColor);
+// btn.addEventListener("click",changeColor);
+
+//click or mouse
+let btn = document.querySelector('button');
+let inp = document.querySelector('input');
+
+btn.addEventListener("click",function(event){
+    console.log(event);
+});
+
+inp.addEventListener("keydown", function(event){
+    console.log(event);
+    console.log("key was pressed");
+})
