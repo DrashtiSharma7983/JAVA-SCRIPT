@@ -64,7 +64,7 @@ inp.addEventListener("keydown", function(event){
     console.log("key was pressed");
 })
 
-//
+//other scenario
 let form = document.querySelector('form');
 form.addEventListener("submit", function(event){
     event.preventDefault();
