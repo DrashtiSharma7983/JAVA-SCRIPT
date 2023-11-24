@@ -1,18 +1,14 @@
-let inp = document.querySelector('input');
-let btn = document.querySelector('button');
-let ul = document.querySelector('ul');
+function one(){
+    return 1;
+}
 
-btn.addEventListener("click",function(){
-    //console.log("button clicked.");
-    //console.log(inp.value);
-    
-    let litems = document.createElement("li");
-    litems.innerText = inp.value;
-    console.log('item created');
-    ul.appendChild(litems);
-    inp.value = "";
+function two(){
+    return one() + one();
+}
 
-    // let delbtn = document.createElement('button');
-    // delbtn.innerText = "delete";
-    // litems.appendChild(delbtn);
-})
+function three(){
+    let ans = two() + one();
+    console.log(ans);
+}
+
+three();
