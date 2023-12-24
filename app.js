@@ -1,14 +1,14 @@
-function one(){
-    return 1;
+async function greet(){
+    //throw "page not found";
+    return "hello!";
 }
 
-function two(){
-    return one() + one();
-}
+greet()
+.then((result)=>{
+    console.log("promise was resolved");
+    console.log("result is:", result);
+})
 
-function three(){
-    let ans = two() + one();
-    console.log(ans);
-}
-
-three();
+.catch((err)=>{
+    console.log("promise was rejected with error:", err);
+});
