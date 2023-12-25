@@ -1,3 +1,5 @@
+//Axios
+
 let btn = document.querySelector("button");
 
 btn.addEventListener("click", async()=>{
@@ -18,3 +20,8 @@ async function getFacts(){
         return "No data found";
     }
 }
+
+//html code
+{/* <h1>Get random cat facts</h1>
+    <button>Show new facts</button>
+    <p id="result"></p> */}
